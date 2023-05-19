@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>code editor</title>
+       <link rel="stylesheet" href="style.css">
+       <script src="logic.js"></script>
+   </head>
+   <body>
+      <div class="container">
+        <div id="left">
+           <p>html</p>
+           <textarea id="html-code" onkeyup="run(event,this)"></textarea>
+
+           <p>css</p>
+           <textarea id="css-code" onkeyup="run(event,this)"></textarea> 
+      
+           <p>js</p>
+           <textarea id="js-code" onkeyup="run(event,this)"></textarea>
+         </div>
+         <div id="right">
+              <p>output</p>
+              <iframe id="output"></iframe>
+         </div>
+
+      </div>   
+      
+
+   </body>
+   
+
+</html>
